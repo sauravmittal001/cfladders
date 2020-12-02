@@ -17,8 +17,8 @@
 - <a href="https://codeforces.com/contest/302/problem/A">Eugeny and Array</a>: Regular competitive programmers face common challenge when input is large and the task of reading such an input from stdin might prove to be a bottleneck. Such problem is accompanied with “Warning: large I/O data”.
 In such cases: (1) use scanf instead of cin, (2) std::ios::sync_with_stdio(false);
 
-
-- pt2
+> <a href="https://www.geeksforgeeks.org/stdfixed-stdscientific-stdhexfloat-stddefaultfloat-c/">std::fixed, std::scientific, std::hexfloat, std::defaultfloat in C++</a>
+- <a href="https://codeforces.com/contest/1234/problem/A">Equalize Prices Again</a>: When Inputs are large, sometimes compiler outputs number in undesirable precision. In such situations use (i) std::fixed – Fixed Floating-point notation (ii) std::scientific – Scientific floating-point notation (iii) std::hexfloat – Hexfloat floating-point notation (iv) std::defaultfloat – defaultfloat floating-point notation
 - pt3
 - pt4
 - pt5
