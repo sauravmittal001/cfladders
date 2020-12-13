@@ -37,6 +37,16 @@ bool isNumber(string s)
     return true;
 }
 ````
+> <a href="https://www.geeksforgeeks.org/substring-in-cpp/">Substring in C++</a>
+- <a href="https://codeforces.com/contest/108/problem/A">#56 Palindromic Times</a>:
+````
+string s1 = "Geeks"; 
+string r = s1.substr(1, 3); // both index inclusive
+cout << "String is: " << r; 
+````
+````
+Output: String is: eek
+````
 - pt5
 - pt5
 - pt5
