@@ -1,12 +1,12 @@
 
 
 ![alt text](https://sta.codeforces.com/s/42034/images/codeforces-telegram-square.png)
-# cfladders
-<a href="http://cfladders.rf.gd/">Codeforces Problem Solutions </a>
+# cfladders answers in c++
+<a href="http://cfladders.rf.gd/">Codeforces Ladder Problems</a>
 ## Table of Contents (Optional)
 
 - [Points](#points)
-- [Something1](#Something1)
+- [Tough](#tough)
 
 ---
 
@@ -41,7 +41,7 @@ bool isNumber(string s)
 - <a href="https://codeforces.com/contest/108/problem/A">#56 Palindromic Times</a>:
 ````
 string s1 = "Geeks"; 
-string r = s1.substr(1, 3); // both index inclusive
+string r = s1.substr(1, 3); // both index inclusive, min one char long string will be returned
 cout << "String is: " << r; 
 ````
 ````
@@ -54,9 +54,10 @@ Output: String is: eek
 - pt5
 
 
-## Something1
+## Tough
 
-- pt1
+### A
+- <a href="https://codeforces.com/contest/165/problem/A">#62 Supercentral Point</a>
 - pt2
 - pt3
 - pt4
