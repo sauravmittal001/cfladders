@@ -1,29 +1,26 @@
 #include <iostream>
 #include <cmath>
-#include <algorithm>
+#include <map>
 #include <set>
-#include <sstream>
+#include <vector>
 
 using namespace std;
 
+
 int main() {
 //void func() {
-
-    double a, b, c, d;
-    cin >> a >> b >> c >> d;
-
-    double misha = max(3*double(a/10), a-a*double(c/250));
-    double vasya = max(3*double(b/10), b-b*double(d/250));
-
-    if (misha > vasya) {
-        cout << "Misha" << endl;
+    int t;
+    cin >> t;
+    while(t--) {
+        int n;
+        cin >> n;
+        int arr[n];
+        for(int i = 0; i < n; i++) cin >> arr[i];
+        set<int> s;
+        for (int i = 0 ; i < n; i++)
+            for (int j = 0; j < n; j++)
+                if (i != j) s.insert(abs(arr[j] - arr[i]));
+        cout << ((s.find(0) != s.end()) ? s.size()-1 : s.size()) << endl;
     }
-    else if (vasya > misha) {
-        cout << "Vasya" << endl;
-    } else {
-        cout << "Tie" << endl;
-    }
-
-
     return 0;
 }
